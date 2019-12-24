@@ -11,6 +11,12 @@ pipeline {
                      echo 'Hi, We are in stage Two'
 						}
                  }
+				 stage('Three') {
+                 steps {
+                     echo 'Hi, We are in stage Three'
+					 sh mvn compile
+						}
+                 }
                  
 				}
 }
