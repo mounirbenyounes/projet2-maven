@@ -3,7 +3,12 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is my first pipeline'
+                     echo 'We are in stage One'
+						}
+                 }
+				 stage('Two') {
+                 steps {
+                     echo 'Hi, We are in stage Two'
 						}
                  }
                  
