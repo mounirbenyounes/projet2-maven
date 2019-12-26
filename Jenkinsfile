@@ -17,7 +17,6 @@ pipeline {
 				 stage('Three') {
                  steps {
                      echo 'Hi, We are in stage Three'
-					mvn compile
 						}
                  }
                  
