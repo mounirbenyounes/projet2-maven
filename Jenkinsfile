@@ -14,7 +14,7 @@ pipeline {
 				 stage('Three') {
                  steps {
                      echo 'Hi, We are in stage Three'
-					bash 'mvn compile'
+					bat 'mvn compile'
 						}
                  }
                  
