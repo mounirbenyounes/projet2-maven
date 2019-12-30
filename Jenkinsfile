@@ -18,7 +18,7 @@ pipeline {
                  steps {
                      echo 'Hi, We are in stage Three'
 					 
-					 bat 'mvn test'
+					 bat 'mvn -Dsurefire.useFile=true test'
 						}
                  }
                  
